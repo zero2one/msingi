@@ -1,0 +1,78 @@
+/** 
+ * Msingi Typography
+ */
+
+/*****************************************************************************
+ * Base Settings
+ *****************************************************************************/
+body {
+  font-family: Arial, Helvetica, Verdana, "Bitstream Vera Sans", sans-serif;     /* web safe fonts */
+  /*font-size: 87.50%;*/
+	font-size: 81.25%;
+  line-height: 150%;   /* 1.5x vertical rhythm */
+}
+
+
+/*****************************************************************************
+ * HTML Elements
+ *****************************************************************************/
+h1 {
+  font-size: 1.846em;
+}
+
+h2 {
+  font-size: 1.385em;
+}
+
+h3 {
+  font-size: 1.231em;
+}
+
+h4 {
+  font-size: 1em;
+}
+
+h5 {
+  font-size: 0.846em;
+}
+
+h6 {
+  font-size: 0.769em;
+}
+h1, h2, h3, h4 {
+	line-height: 2em;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-weight: bold;
+}
+
+
+
+/*****************************************************************************
+ * default elements styling 
+ *****************************************************************************/
+
+/* Links */
+a         {}
+a:hover   {}
+a:focus   {}
+a:visited {}
+
+
+/* Block elements */
+p, ul {
+	margin-bottom: 1em;
+}
+ul, ul li {
+	list-style: disc;
+}
+ol, ol li {
+	list-style: decimal;
+}
+ul li, ol li {
+	margin-left: 2em;
+}
+pre, code {
+	font-family: Courier, monospace;
+}
+

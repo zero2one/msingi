@@ -1,0 +1,43 @@
+
+; Theme info ------------------------------------------------------------------
+name = Msingi
+description = Drupal 7 base theme.<br />Msingi is the <a href="http://en.bab.la/dictionary/swahili-english/msingi">Swahili</a> word for base, primary, foundation 
+package = Base themes
+version = 7.x-dev
+core = 7.x
+
+
+; Stylesheets -----------------------------------------------------------------
+stylesheets[all][] = css/reset.css
+stylesheets[all][] = css/typegraphy.css
+stylesheets[all][] = css/msingi.css
+
+;This is an example stylesheet that shows colors for every region
+;stylesheets[all][] = css/style.css
+
+
+; Javascript ------------------------------------------------------------------
+scripts[] = "js/msingi.js"
+
+
+; Regions ---------------------------------------------------------------------
+regions[header]             = Header
+regions[help]               = Help
+regions[highlighted]        = Highlighted
+regions[featured]           = Featured
+regions[page_top_first]     = Page top first
+regions[page_top_second]    = Page top second
+regions[page_top_third]     = Page top third
+regions[content_top]        = Content top
+regions[content]            = Content
+regions[content_bottom]     = Content bottom
+regions[sidebar_first]      = Sidebar first
+regions[sidebar_second]     = Sidebar second
+regions[page_bottom_first]  = Page bottom first
+regions[page_bottom_second] = Page bottom second
+regions[page_bottom_third]  = Page bottom third
+regions[footer_first]       = Footer first column
+regions[footer_second]      = Footer second column
+regions[footer_third]       = Footer third column
+regions[footer_fourth]      = Footer fourth column
+regions[footer]             = Footer bottom

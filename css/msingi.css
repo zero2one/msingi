@@ -1,0 +1,309 @@
+/**
+ * Msingi base stylesheet
+ */
+
+
+/**
+ *  Layout 
+ ******************************************************************************/
+
+/* Centered regions */
+#header,
+#breadcrumb,
+#messages,
+#page-top,
+#highlighted,
+#main,
+#page-bottom,
+#footer {
+  margin: 0 auto;
+  width: 960px;
+}
+
+/* General Regions-sections */
+#content {
+	width: 100%;
+}
+.page-top-first-second #page-top-first, 
+.page-top-first-second-third #page-top-first, 
+.page-top-first-third #page-top-first, 
+.page-top-first-second #page-top-second, 
+.page-top-first-second-third #page-top-second, 
+.page-top-second-third #page-top-second, 
+.page-top-first-second-third #page-top-third,
+.page-top-first-third #page-top-third,
+.page-top-second-third #page-top-third,
+.page-bottom-first-second #page-bottom-first, 
+.page-bottom-first-second-third #page-bottom-first, 
+.page-bottom-first-third #page-bottom-first, 
+.page-bottom-first-second #page-bottom-second, 
+.page-bottom-first-second-third #page-bottom-second, 
+.page-bottom-second-third #page-bottom-second, 
+.page-bottom-first-second-third #page-bottom-third,
+.page-bottom-first-third #page-bottom-third,
+.page-bottom-second-third #page-bottom-third,
+.footer-first-second #footer-first, .footer-first-third #footer-first, 
+.footer-first-fourth #footer-first, .footer-first-second #footer-second,
+.footer-second-third #footer-second, .footer-second-fourth #footer-second,
+.footer-first-third #footer-third, .footer-second-third #footer-third, 
+.footer-third-fourth #footer-third, .footer-first-fourth #footer-fourth,
+.footer-second-fourth #footer-fourth, .footer-third-fourth #footer-fourth,
+.footer-first-second-third-fourth #footer-first, 
+.footer-first-second-third-fourth #footer-second, 
+.footer-first-second-third-fourth #footer-third, 
+.footer-first-second-third-fourth #footer-fourth {
+  float: left;
+}
+.page-top-first-second-third #page-top-first,
+.page-top-first-second #page-top-first,
+.page-top-first-second-third #page-top-third,
+.page-top-second-third #page-top-third,
+#sidebar-first, #sidebar-second,
+.page-bottom-first-second-third #page-bottom-first,
+.page-bottom-first-second #page-bottom-first,
+.page-bottom-first-second-third #page-bottom-third,
+.page-bottom-second-third #page-bottom-third,
+.footer-first-second #footer-first, .footer-first-third #footer-first,
+.footer-second-fourth #footer-fourth, .footer-third-fourth #footer-fourth,
+.footer-first-second-fourth #footer-first, .footer-first-third-fourth #footer-first,
+.footer-first-second-fourth #footer-fourth, .footer-first-third-fourth #footer-fourth {
+  width: 320px;
+}
+.page-top-first-second-third #page-top-second,
+.sidebar-first-second #content,
+.page-bottom-first-second-third #page-bottom-second,
+.footer-first-second-fourth #footer-second, 
+.footer-first-third-fourth #footer-third {
+  width: 320px;
+}
+.page-top-first-second #page-top-second,
+.page-top-second-third #page-top-second,
+.sidebar-first #content,
+.sidebar-second #content,
+.page-bottom-first-second #page-bottom-second,
+.page-bottom-second-third #page-bottom-second,
+.footer-first-second #footer-second, .footer-second-fourth #footer-second,
+.footer-first-third #footer-third, .footer-third-fourth #footer-third {
+  width: 640px;
+}
+.page-top-first-third #page-top-first,
+.page-top-first-third #page-top-third,
+.page-bottom-first-third #page-bottom-first,
+.page-bottom-first-third #page-bottom-third,
+.footer-first-fourth #footer-first,
+.footer-second-third #footer-second,
+.footer-second-third #footer-third,
+.footer-first-fourth #footer-fourth {
+  width: 480px;
+}
+.footer-first-second-third-fourth #footer-first,
+.footer-first-second-third-fourth #footer-fourth {
+	width: 240px;
+}
+.footer-first-second-third-fourth #footer-second,
+.footer-first-second-third-fourth #footer-third {
+	width: 240px;
+}
+.page-top-first-second #page-top-first .region,
+.page-top-first-second-third #page-top-first .region,
+.page-top-first-third #page-top-first .region,
+.page-top-first-second-third #page-top-second .region,
+.page-top-second-third #page-top-second .region,
+.sidebar-second #content .section,
+.sidebar-first-second #content .section,
+#sidebar-first .region,
+.page-bottom-first-second #page-bottom-first .region,
+.page-bottom-first-second-third #page-bottom-first .region,
+.page-bottom-first-third #page-bottom-first .region,
+.page-bottom-first-second-third #page-bottom-second .region,
+.page-bottom-second-third #page-bottom-second .region,
+.footer-first-second #footer-first .region,
+.footer-first-third #footer-first .region,
+.footer-first-fourth #footer-first .region,
+.footer-first-second-third #footer-first .region,
+.footer-first-third-fourth #footer-first .region,
+.footer-first-second-third-fourth #footer-first .region,
+.footer-second-third #footer-second .region,
+.footer-second-fourth #footer-second .region,
+.footer-first-second-fourth #footer-second .region,
+.footer-second-third-fourth #footer-second .region,
+.footer-first-second-third-fourth #footer-second .region,
+.footer-third-fourth #footer-third .region,
+.footer-first-third-fourth #footer-third .region,
+.footer-second-third-fourth #footer-third .region,
+.footer-first-second-third-fourth #footer-third .region {
+  /*margin-right: 10px;*/
+}
+.page-top-first-third #page-top-third .region,
+.page-top-first-second-third #page-top-third .region,
+.page-top-second-third #page-top-third .region,
+.page-top-first-second #page-top-second .region,
+.page-top-first-second-third #page-top-second .region,
+.sidebar-first #content .section,
+.sidebar-first-second #content .section,
+#sidebar-second .region,
+.page-bottom-first-third #page-bottom-third .region,
+.page-bottom-first-second-third #page-bottom-third .region,
+.page-bottom-second-third #page-bottom-third .region,
+.page-bottom-first-second #page-bottom-second .region,
+.page-bottom-first-second-third #page-bottom-second .region,
+.footer-first-second #footer-second .region,
+.footer-first-second-third #footer-second .region,
+.footer-first-second-fourth #footer-second .region,
+.footer-first-second-third-fourth #footer-second .region,
+.footer-first-third #footer-third .region,
+.footer-second-third #footer-third .region,
+.footer-first-second-third #footer-third .region,
+.footer-first-second-third-fourth #footer-third .region,
+.footer-first-fourth #footer-fourth .region,
+.footer-second-fourth #footer-fourth .region,
+.footer-third-fourth #footer-fourth .region,
+.footer-first-second-fourth #footer-fourth .region,
+.footer-first-third-fourth #footer-fourth .region,
+.footer-first-second-third-fourth #footer-fourth .region {
+  /*margin-left: 10px;*/ 
+}
+
+#secondary-navigation,
+#branding,
+#navigation,
+#page-title,
+div.region {
+  padding: 10px;
+}
+
+
+/* Content regions */
+#content, 
+#sidebar-first, #sidebar-second {
+  display: inline;
+  float: left;
+  position: relative;
+}
+.sidebar-first #content,
+.sidebar-second #content {
+  width: 640px;
+}
+.sidebar-first #content,
+.sidebar-first-second #content {
+  left: 320px;
+}
+#sidebar-first {
+  left: -640px;
+}
+.sidebar-first-second #sidebar-first {
+  left: -320px;
+}
+#sidebar-second {
+  float: right;
+}
+
+
+
+/**
+ * Individual region style
+ */
+#navigation h2,
+#secondary-navigation h2 {
+  display: none;
+}
+#secondary-navigation {
+  float: right;
+}
+
+
+
+
+
+
+/**
+ * Drupal specific overrides
+ *****************************************************************************/
+#toolbar a span {
+  color: #FFF;
+}
+
+/* Messages */
+div.messages {
+  padding: 10px 40px;
+  position: relative;
+}
+div.messages ul {
+  margin: 0;
+}
+div.messages li {
+  border-bottom: 1px solid;
+  padding: 5px 10px;
+}
+div.messages li.first {
+  padding-top: 0;
+}
+div.messages li.last {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+div.status {
+  background: url("../images/icons/message-24-ok.png") no-repeat scroll 10px 10px #F8FFF0;
+  color: #234600;
+}
+div.status,
+div.status li {
+  border-color: #BBEE77;
+}
+div.warning {
+  background: url("../images/icons/message-24-warning.png") no-repeat 10px 10px #FFFCE5;
+  color: #884400;
+}
+div.warning,
+div.warning li {
+  border-color: #EEDD55;
+}
+div.error {
+  background: url('../images/icons/message-24-error.png') no-repeat scroll 10px 10px #FEF5F1;
+  color: #8C2E0B;
+}
+div.error,
+div.error li {
+  border-color: #FFCCCC;
+}
+
+#messages .block-close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+#messages .block-close a {
+  background: url("../images/icons/action-close.png") no-repeat scroll left center transparent;
+  display: block;
+  height: 20px;
+  width: 20px;
+}
+#messages .block-close a span {
+  display: none;
+}
+
+
+/**
+ * Clearfix (improved)
+ * @see http://drupal.org/node/457778
+ *****************************************************************************/
+/* slightly enhanced, universal clearfix hack */
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.clearfix { 
+  display: inline-block;
+}
+/* start commented backslash hack \*/
+* html .clearfix { 
+  height: 1%; 
+}
+.clearfix { 
+  display: block; 
+}
+/* close commented backslash hack */

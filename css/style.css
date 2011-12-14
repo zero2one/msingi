@@ -1,0 +1,82 @@
+/**
+ * This stylesheet is by default not loaded.
+ * 
+ * Use this stylesheet to have a background-colored distinction between all
+ * the theme regions
+ * 
+ * You should add your own style.css to your subtheme 
+ */
+
+/**
+ *  Background-colored debug info
+ ******************************************************************************/
+
+body {
+  background-color: #CCC;
+}
+#page-wrapper {
+  background-color: #AAA;
+}
+
+#header,
+#page-top,
+#highlighted,
+#main,
+#footer {
+  background-color: #FFF;
+}
+
+#header {
+  background-color: #FF9;
+}
+
+#page-top-first,
+#page-bottom-first {
+  background-color: #900;
+}
+#page-top-second,
+#page-bottom-second {
+  background-color: #600;
+}
+#page-top-third,
+#page-bottom-third {
+  background-color: #300;
+}
+#highlighted {
+  background-color: #C00;
+}
+
+#sidebar-first,
+#sidebar-second {
+  background-color: #FF0;
+}
+#content {
+  background-color: #FFC;
+}
+
+
+#footer-first {
+  background-color: #00C;
+}
+#footer-second {
+  background-color: #009;
+}
+#footer-third {
+  background-color: #006; 
+}
+#footer-fourth {
+  background-color: #003; 
+}
+
+#footer {
+  background-color: #C00;
+}
+
+.region {
+  min-height: 100px;
+}
+
+a.context-block-region {
+  display: block;
+  color: #999;
+}
