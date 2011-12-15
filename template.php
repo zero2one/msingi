@@ -1,6 +1,4 @@
 <?php
-/* SVN File $Id$ */
-
 /**
  * Implements hook_preprocess_html
  * Add body classes if certain regions have content.

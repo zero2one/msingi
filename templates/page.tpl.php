@@ -178,7 +178,7 @@
         <ul class="action-links"><?php print render($action_links); ?></ul>
       <?php endif; ?>
       
-      <?php if ($page['content_top']): ?>
+      <?php if (!empty($page['content_top'])): ?>
         <div id="content-top-wrapper"><div id="content-top">
           <?php print render($page['content_top']); ?>
         </div></div>
@@ -186,7 +186,7 @@
       
       <?php print render($page['content']); ?>
       
-      <?php if ($page['content_bottom']): ?>
+      <?php if (!empty($page['content_bottom'])): ?>
         <div id="content-bottom-wrapper"><div id="content-bottom">
           <?php print render($page['content_bottom']); ?>
         </div></div>
