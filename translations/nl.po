@@ -1,0 +1,149 @@
+# $Id$
+#
+# LANGUAGE translation of Drupal (general)
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+# Generated from files:
+#  template.php: n/a
+#  msingi.info: n/a
+#  templates/page.tpl.php: n/a
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2011-12-29 17:03+0100\n"
+"PO-Revision-Date: 2011-12-29 17:08+0100\n"
+"Last-Translator: Peter Decuyper <peter@serial-graphics.be>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: template.php:155
+msgid "Status message"
+msgstr "Status boodschap"
+
+#: template.php:156
+msgid "Error message"
+msgstr "Fout boodschap"
+
+#: template.php:157
+msgid "Warning message"
+msgstr "Waarschuwing boodschap"
+
+#: template.php:167;167
+msgid "Close"
+msgstr "Sluiten"
+
+#: template.php:215
+msgid "Primary tabs"
+msgstr "Primaire tabs"
+
+#: template.php:235
+msgid "Secondary tabs"
+msgstr "Secundaire tabs"
+
+#: msingi.info:0
+msgid "Msingi"
+msgstr "Msingi"
+
+#: msingi.info:0
+msgid "Drupal 7 base theme.<br />Msingi is the <a href=\"http://en.bab.la/dictionary/swahili-english/msingi\">Swahili</a> word for base, primary, foundation"
+msgstr "Drupal 7 basis theme.<br />Msingi is het <a href=\"http://en.bab.la/dictionary/swahili-english/msingi\">Swahili</a> woord voor basis, primair, fundament."
+
+#: msingi.info:0
+msgid "Base themes"
+msgstr "Basis theme"
+
+#: msingi.info:0
+msgid "Header"
+msgstr "Header"
+
+#: msingi.info:0
+msgid "Help"
+msgstr "Help"
+
+#: msingi.info:0
+msgid "Highlighted"
+msgstr "Highlighted"
+
+#: msingi.info:0
+msgid "Featured"
+msgstr "Featured"
+
+#: msingi.info:0
+msgid "Page top first"
+msgstr "Page top first"
+
+#: msingi.info:0
+msgid "Page top second"
+msgstr "Page top second"
+
+#: msingi.info:0
+msgid "Page top third"
+msgstr "Page top third"
+
+#: msingi.info:0
+msgid "Content top"
+msgstr "Content top"
+
+#: msingi.info:0
+msgid "Content"
+msgstr "Content"
+
+#: msingi.info:0
+msgid "Content bottom"
+msgstr "Content bottom"
+
+#: msingi.info:0
+msgid "Sidebar first"
+msgstr "Sidebar first"
+
+#: msingi.info:0
+msgid "Sidebar second"
+msgstr "Sidebar second"
+
+#: msingi.info:0
+msgid "Page bottom first"
+msgstr "Page bottom first"
+
+#: msingi.info:0
+msgid "Page bottom second"
+msgstr "Page bottom second"
+
+#: msingi.info:0
+msgid "Page bottom third"
+msgstr "Page bottom third"
+
+#: msingi.info:0
+msgid "Footer first column"
+msgstr "Footer first column"
+
+#: msingi.info:0
+msgid "Footer second column"
+msgstr "Footer second column"
+
+#: msingi.info:0
+msgid "Footer third column"
+msgstr "Footer third column"
+
+#: msingi.info:0
+msgid "Footer fourth column"
+msgstr "Footer fourth column"
+
+#: msingi.info:0
+msgid "Footer bottom"
+msgstr "Footer bottom"
+
+#: templates/page.tpl.php:84
+msgid "Secondary menu"
+msgstr "Secundair menu"
+
+#: templates/page.tpl.php:91;92;101;105
+msgid "Home"
+msgstr "Home"
+
+#: templates/page.tpl.php:120
+msgid "Main menu"
+msgstr "Hoofd menu"
+

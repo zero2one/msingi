@@ -1,0 +1,150 @@
+# $Id$
+#
+# LANGUAGE translation of Drupal (general)
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+# Generated from files:
+#  template.php: n/a
+#  msingi.info: n/a
+#  templates/page.tpl.php: n/a
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2011-12-29 17:03+0100\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: template.php:155
+msgid "Status message"
+msgstr ""
+
+#: template.php:156
+msgid "Error message"
+msgstr ""
+
+#: template.php:157
+msgid "Warning message"
+msgstr ""
+
+#: template.php:167;167
+msgid "Close"
+msgstr ""
+
+#: template.php:215
+msgid "Primary tabs"
+msgstr ""
+
+#: template.php:235
+msgid "Secondary tabs"
+msgstr ""
+
+#: msingi.info:0
+msgid "Msingi"
+msgstr ""
+
+#: msingi.info:0
+msgid "Drupal 7 base theme.<br />Msingi is the <a href=\"http://en.bab.la/dictionary/swahili-english/msingi\">Swahili</a> word for base, primary, foundation"
+msgstr ""
+
+#: msingi.info:0
+msgid "Base themes"
+msgstr ""
+
+#: msingi.info:0
+msgid "Header"
+msgstr ""
+
+#: msingi.info:0
+msgid "Help"
+msgstr ""
+
+#: msingi.info:0
+msgid "Highlighted"
+msgstr ""
+
+#: msingi.info:0
+msgid "Featured"
+msgstr ""
+
+#: msingi.info:0
+msgid "Page top first"
+msgstr ""
+
+#: msingi.info:0
+msgid "Page top second"
+msgstr ""
+
+#: msingi.info:0
+msgid "Page top third"
+msgstr ""
+
+#: msingi.info:0
+msgid "Content top"
+msgstr ""
+
+#: msingi.info:0
+msgid "Content"
+msgstr ""
+
+#: msingi.info:0
+msgid "Content bottom"
+msgstr ""
+
+#: msingi.info:0
+msgid "Sidebar first"
+msgstr ""
+
+#: msingi.info:0
+msgid "Sidebar second"
+msgstr ""
+
+#: msingi.info:0
+msgid "Page bottom first"
+msgstr ""
+
+#: msingi.info:0
+msgid "Page bottom second"
+msgstr ""
+
+#: msingi.info:0
+msgid "Page bottom third"
+msgstr ""
+
+#: msingi.info:0
+msgid "Footer first column"
+msgstr ""
+
+#: msingi.info:0
+msgid "Footer second column"
+msgstr ""
+
+#: msingi.info:0
+msgid "Footer third column"
+msgstr ""
+
+#: msingi.info:0
+msgid "Footer fourth column"
+msgstr ""
+
+#: msingi.info:0
+msgid "Footer bottom"
+msgstr ""
+
+#: templates/page.tpl.php:84
+msgid "Secondary menu"
+msgstr ""
+
+#: templates/page.tpl.php:91;92;101;105
+msgid "Home"
+msgstr ""
+
+#: templates/page.tpl.php:120
+msgid "Main menu"
+msgstr ""
+
