@@ -9,7 +9,7 @@ core = 7.x
 
 ; Stylesheets -----------------------------------------------------------------
 stylesheets[all][] = css/reset.css
-stylesheets[all][] = css/typegraphy.css
+stylesheets[all][] = css/typography.css
 stylesheets[all][] = css/msingi.css
 
 ;This is an example stylesheet that shows colors for every region

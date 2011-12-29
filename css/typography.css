@@ -53,9 +53,14 @@ h1, h2, h3, h4, h5, h6 {
  *****************************************************************************/
 
 /* Links */
-a         {}
-a:hover   {}
-a:focus   {}
+a {
+  color: #0074BD;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+a:focus {}
 a:visited {}
 
 
@@ -75,4 +80,3 @@ ul li, ol li {
 pre, code {
 	font-family: Courier, monospace;
 }
-

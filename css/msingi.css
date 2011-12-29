@@ -283,6 +283,44 @@ div.error li {
 }
 
 
+/* Tabs */
+ul.tabs li {
+  margin: 0 .2em 0 0;
+}
+ul.tabs li a,
+ul.tabs li a:hover {
+  padding: 2px 5px;
+}
+ul.tabs li a:hover {
+  background-color: #0074BD;
+  color: #fff;
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -khtml-border-radius: 15px;
+  border-radius: 15px;
+}
+
+/* Action links */
+ul.action-links, ul.action-links li {
+  list-style: none;
+  list-style-type: none;
+  list-style-image: none;
+}
+ul.action-links li {
+  float: left;
+  margin: 0 1em 0 0;
+}
+ul.action-links a {
+  padding-left: 15px;
+  background: transparent url('../images/icons/add.png') no-repeat 0 center;
+  line-height: 30px;
+  text-decoration: none;
+}
+ul.action-links a:hover {
+  text-decoration: underline;
+}
+
+
 /**
  * Clearfix (improved)
  * @see http://drupal.org/node/457778

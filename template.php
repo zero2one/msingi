@@ -195,3 +195,65 @@ function msingi_status_messages($variables) {
   return implode(PHP_EOL, $output);
 }
 
+
+
+/**
+ * Add contextual links
+ *****************************************************************************/
+/**
+ * Implements theme_menu_local_tasks()
+ * 
+ * Adds contextual links for nodes when they are displayed on their own page.
+ * 
+ * @see http://drupal.org/node/951088#comment-4350170
+ */
+function __msingi_menu_local_tasks(&$variables) {
+  $output = '';
+  $has_access = user_access('access contextual links');
+  
+  if (!empty($variables['primary'])) {
+    $variables['primary']['#prefix'] = '<h2 class="element-invisible">' . t('Primary tabs') . '</h2>'; 
+    
+    // Only display contextual links if the user has the correct permissions enabled.
+    // Otherwise, the default primary tabs will be used.
+    if($has_access) {
+      // Add contextual links js and css library
+      drupal_add_library('contextual', 'contextual-links');
+      
+      $variables['primary']['#prefix'] = '<div class="contextual-links-wrapper"><ul class="contextual-links">';
+      $variables['primary']['#suffix'] = '</ul></div>'; 
+    }
+    else {
+      $variables['primary']['#prefix'] = '<ul class="tabs primary">';
+      $variables['primary']['#suffix'] = '</ul>';
+    }
+        
+    $output .= drupal_render($variables['primary']);
+  }
+  
+  if (!empty($variables['secondary'])) {
+    $variables['secondary']['#prefix'] = '<h2 class="element-invisible">' . t('Secondary tabs') . '</h2>';
+    $variables['secondary']['#prefix'] = '<ul class="tabs secondary clearfix">';
+    $variables['secondary']['#suffix'] = '</ul>';
+    $output .= drupal_render($variables['secondary']);
+  }
+  
+  return $output;
+}
+
+/**
+ * Implements theme_menu_local_task()
+ * 
+ * Removes the view link when viewing the node
+ * 
+ * @see http://drupal.org/node/951088#comment-4372252
+ */
+function msingi_menu_local_task($variables) {
+  $link = $variables['element']['#link'];
+  if ($link['path'] == 'node/%/view') {
+    return false;
+  }
+  
+  $link['localized_options']['html'] = TRUE;
+  return '<li>'.l($link['title'], $link['href'], $link['localized_options']).'</li>'."\n";
+}
