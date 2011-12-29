@@ -175,7 +175,11 @@
       <?php endif; ?>
       <?php print render($page['help']); ?>
       <?php if ($action_links): ?>
-        <ul class="action-links"><?php print render($action_links); ?></ul>
+        <div id="action-links" class="clearfix">
+          <ul class="action-links">
+            <?php print render($action_links); ?>
+          </ul>
+        </div>
       <?php endif; ?>
       
       <?php if (!empty($page['content_top'])): ?>
