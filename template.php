@@ -1,10 +1,8 @@
 <?php
 /**
  * Implements hook_preprocess_html
- * Add body classes if certain regions have content.
  * 
- * @param   array variables
- * @return  void
+ * Add body classes if certain regions have content.
  */
 function msingi_preprocess_html(&$variables) {
   // special regions (region name => number of sections)
@@ -32,10 +30,8 @@ function msingi_preprocess_html(&$variables) {
 
 /**
  * Implements hook_preprocess_page
- * Override or insert variables into the page template.
  * 
- * @param   array variables
- * @return  void
+ * Override or insert variables into the page template.
  */
 function msingi_preprocess_page(&$variables) {
   $regions = _msingi_helper_get_regions($variables);
