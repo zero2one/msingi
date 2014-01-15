@@ -153,7 +153,7 @@
     </div></div> <!--  /#page-top, /#page-top-wrapper -->
   <?php endif; ?>
 
-  <?php if ($page['highlighted']): ?>
+  <?php if (!empty($page['highlighted'])): ?>
     <div id="highlighted-wrapper"><div id="highlighted" class="clearfix">
         <?php print render($page['highlighted']); ?>
     </div></div> <!--  /#highlighted, /#highlighted-wrapper -->
@@ -199,13 +199,13 @@
       <?php print $feed_icons; ?>
     </div></div> <!-- /.section, /#content -->
 
-    <?php if ($page['sidebar_first']): ?>
+    <?php if (!empty($page['sidebar_first'])): ?>
       <div id="sidebar-first" class="column sidebar"><div class="section clearfix">
         <?php print render($page['sidebar_first']); ?>
       </div></div> <!-- /.section, /#sidebar-first -->
     <?php endif; ?>
 
-    <?php if ($page['sidebar_second']): ?>
+    <?php if (!empty($page['sidebar_second'])): ?>
       <div id="sidebar-second" class="column sidebar"><div class="section clearfix">
         <?php print render($page['sidebar_second']); ?>
       </div></div> <!-- /.section, /#sidebar-second -->
