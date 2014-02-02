@@ -124,7 +124,9 @@
   </div></div> <!-- /#header, /#header-wrapper -->
 
   <?php if ($breadcrumb): ?>
-    <div id="breadcrumb"><?php print $breadcrumb; ?></div>
+    <div id="breadcrumb-wrapper"><div id="breadcrumb">
+      <?php print $breadcrumb; ?>
+    </div></div>
   <?php endif; ?>
 
   <?php if($messages): ?>
