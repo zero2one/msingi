@@ -123,7 +123,7 @@
     
   </div></div> <!-- /#header, /#header-wrapper -->
 
-  <?php if ($breadcrumb): ?>
+  <?php if ($show_breadcrumb && $breadcrumb): ?>
     <div id="breadcrumb-wrapper"><div id="breadcrumb">
       <?php print $breadcrumb; ?>
     </div></div>

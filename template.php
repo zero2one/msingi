@@ -1,5 +1,14 @@
 <?php
 /**
+ * @file
+ */
+
+
+/******************************************************************************
+ * Preprocessors
+ ******************************************************************************/
+
+/**
  * Implements hook_preprocess_html
  * 
  * Add body classes if certain regions have content.
@@ -36,6 +45,9 @@ function msingi_preprocess_html(&$variables) {
 function msingi_preprocess_page(&$variables) {
   $regions = _msingi_helper_get_regions($variables);
   $variables['region_wrapper'] = $regions['show'];
+
+  // Remove breadcrumb?
+  $variables['show_breadcrumb'] = (bool)theme_get_setting('show_breadcrumbs');
 }
 
 /**
@@ -64,9 +76,9 @@ function msingi_preprocess_block(&$vars) {
 
 
 
-/**
- * HELPERS ********************************************************************
- */
+/******************************************************************************
+ * HELPERS
+ ******************************************************************************/
 
 /**
  * Get the regions with subsections
@@ -74,7 +86,8 @@ function msingi_preprocess_block(&$vars) {
  * Returns an array with:
  *  Region name => number of subsections
  * 
- * @param   void
+ * @param   array $variables
+ *
  * @return  array
  */
 function _msingi_helper_get_regions($variables = array()) {
@@ -126,6 +139,10 @@ function _msingi_helper_get_regions($variables = array()) {
  * Implements theme_link
  * 
  * Adds extra <span> around link content
+ *
+ * @param array $variables
+ *
+ * @return string
  */
 function msingi_link($variables) {
   return '<a href="' 
@@ -141,6 +158,10 @@ function msingi_link($variables) {
 
 /**
  * Implements theme_status_messages
+ *
+ * @param array $variables
+ *
+ * @return string
  */
 function msingi_status_messages($variables) {
   $display = $variables['display'];

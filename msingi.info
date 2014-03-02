@@ -41,3 +41,7 @@ regions[footer_second]      = Footer second column
 regions[footer_third]       = Footer third column
 regions[footer_fourth]      = Footer fourth column
 regions[footer]             = Footer bottom
+
+
+; Default settings
+settings[show_breadcrumbs] = TRUE
