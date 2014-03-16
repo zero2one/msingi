@@ -173,7 +173,7 @@
       <?php endif; ?>
       <?php print render($title_suffix); ?>
       <?php if ($tabs && (!empty($tabs['#primary']) || !empty($tabs['#secondary']))): ?>
-        <div id="tabs"><?php print render($tabs); ?></div>
+        <div id="tabs" class="clearfix"><?php print render($tabs); ?></div>
       <?php endif; ?>
       <?php print render($page['help']); ?>
       <?php if ($action_links): ?>
